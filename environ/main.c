@@ -11,7 +11,6 @@ int main(int argc, char *argv[], char *envp[])
 	}
 	endOfArgs++;
 
-	char *env = (char *)endOfArgs;
 	printf("end of args: %p\n----------------\n", endOfArgs);
 	for (char *env = (char *)endOfArgs; *env != NULL; env++)
 	{
